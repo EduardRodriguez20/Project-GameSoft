@@ -17,7 +17,7 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <img src="/assets/images/icon.png" alt="">
+                        <img src="../assets/images/icon.png" alt="">
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../index.html">Inicio</a>
@@ -35,7 +35,7 @@
 
     <main>
         <h1>Juegos Campus GameSoft</h1>
-        <div>
+        <div class="header_main">
             <label for="">Buscar por:</label>
             <select id="select_search" onchange="search()">
                 <option value="id">ID</option>
@@ -46,7 +46,7 @@
             </select>
             <input id="text_search" type="text" oninput="search()">
             
-            <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modal_add_game">
+            <button type="button" class="btn-one" data-bs-toggle="modal" data-bs-target="#modal_add_game">
                 Registrar Nuevo
             </button>
         </div>
@@ -92,7 +92,7 @@
                             <label for="">Ingresa el precio: </label>
                             <input type="number" id="" oninput="calculate_points(this)">
                             <h5>El juego tendrá 0 puntos de Fidelizacion</h5>
-                            <button onclick="add_game()">Guardar</button>
+                            <button class="btn-one" onclick="add_game()">Guardar</button>
                         </div>
                         <div id="img_new_game">
                             <h3>Validacion de portada</h3>

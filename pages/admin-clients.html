@@ -17,7 +17,7 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <img src="/assets/images/icon.png" alt="">
+                        <img src="../assets/images/icon.png" alt="">
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../index.html">Inicio</a>
@@ -35,7 +35,7 @@
 
     <main>
         <h1>Clientes Campus GameSoft</h1>
-        <div>
+        <div class="header_main">
             <label for="">Buscar por:</label>
             <select id="select_search" onchange="search()">
                 <option value="id">Identificacion</option>
@@ -45,10 +45,10 @@
             </select>
             <input id="text_search" type="text" oninput="search()">
 
-            <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modal_add_client">
+            <button type="button" class="btn-one" data-bs-toggle="modal" data-bs-target="#modal_add_client">
                 Registrar Nuevo
             </button>
-            <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#module_points">
+            <button type="button" class="btn-one" data-bs-toggle="modal" data-bs-target="#module_points">
                 Modulo CGS Coins
             </button>
         </div>
@@ -92,7 +92,7 @@
                         <input type="date" id="">
                         <label for="">Ingresa tu Nacionalidad: </label>
                     </div>
-                    <button onclick="add_client()">Guardar</button>
+                    <button class="btn-one" onclick="add_client()">Guardar</button>
                 </div>
                 <div class="modal-footer">
                     <button type="button" id="cls_mod_new_cl" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
